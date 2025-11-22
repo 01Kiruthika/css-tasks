@@ -1,0 +1,26 @@
+online storate
+
+github
+gitlab
+bitbucket
+
+repository
+repo
+
+
+1. github register
+2. one time connect create & vs terminal via 
+3. repo create -> copy link
+4. clone the link 
+	git clone link
+5. file add 
+	git add .      => all files
+	git add index.html => single file
+6. git commit -m "message"
+7. git push origin main
+
+U => untracted
+A => Added
+M => Modified
+
+-m => message

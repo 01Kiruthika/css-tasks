@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Container{
+    color:rgb(155, 15, 113);
+    border: 2px solid;
+    height: 80vh;
+    background-image: url(../Images/images.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 18px;
+}
+
+.Container1{
+     border: 2px solid;
+    height: 50vh;
+    background-image: url(../Images/images\ \(2\).jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 32px;
+}
+
+.Container1 p{
+    color:rgb(165, 24, 71);
+}
+
+.Container2{ 
+    border: 2px solid;
+    height: 80vh;
+    background-image: url(../Images/images\ \(1\).jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(172, 102, 11);
+}

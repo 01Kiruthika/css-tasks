@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Imperial+Script&family=Indie+Flower&family=Oregano:ital@0;1&family=Snowburst+One&family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxs;
+}
+
+
+h1 {
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-size: 5rem;
+    text-align: center;
+    background: linear-gradient(to right,#7C00FE, #F5004F);
+    color: transparent;
+    background-clip: text;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: red;
+
+}
+
+#name {
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    text-align: center;
+    background: radial-gradient(#640D5F, #B12C00, #EB5B00, #FFCC00);
+    color: transparent;
+    background-clip: text;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: purple;
+
+}
+
+#name1 {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    text-align: center;
+    background: conic-gradient(blue,transparent);
+    color: transparent;
+    background-clip: text;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: sienna;
+
+}
+
+.name3 {
+    font-family: "Snowburst One", system-ui;
+    font-weight: 400;
+    text-align: center;
+    background: linear-gradient(#4ED7F1, #6FE6FC, #A8F1FF, #FFFA8D);
+    color: transparent;
+    background-clip: text;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: orangered;
+
+}
+
+.name4 {
+    font-family: "Oregano", cursive;
+    font-weight: 400;
+    text-align: center;
+    background: radial-gradient(#DC143C, #F75270, #F7CAC9, #FDEBD0);
+    color: transparent;
+    background-clip: text;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: blue;
+
+}

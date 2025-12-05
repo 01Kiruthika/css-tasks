@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    border: 2px solid;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .card-image {
+    /* border: 2px solid; */
+    width: inherit;
+    height: 100px;
+    position: absolute;
+    left: -403px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 800;
+    background-color: #13c74866;
+    transition: 1s;
+}
+
+ .card:hover .card-image{ 
+    left:0;
+} 
+.card-image .offer{
+   width: 72px;
+    height: 41px;
+    position: absolute;
+    right: 0;
+}
+.card .description{
+    /* border: 2px solid; */
+    width: inherit;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: -101%;
+    background-color: rgba(247, 163, 37, 0.479);
+     font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: italic;
+    transition: 1s;
+}
+
+.card:hover .description{
+    right: 0%;
+}
+
+
+
+
+
+
+

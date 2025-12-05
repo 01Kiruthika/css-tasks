@@ -1,0 +1,17 @@
+.bg-red{
+    background-color: red;
+}
+
+.algin{
+    text-align: center;
+    background-color: green;
+}
+#text{
+    text-align: end;
+    background-color: teal;
+
+}
+
+*{
+    margin: 0;
+}

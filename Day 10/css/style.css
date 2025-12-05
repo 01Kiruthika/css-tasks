@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* border: 2px solid; */
+    width: 100%;
+    height: 650px;
+    position: relative;
+    background-color: #333;
+}
+
+.face {
+    /* border: 2px solid; */
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -30%);
+    border-radius: 50%;
+    background-color: #f3ceb3;
+    /* background: darkblue; */
+    z-index: 7;
+}
+
+.eye1 {
+    /* border: 2px solid; */
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    background: rgb(0, 0, 0);
+    clip-path: ellipse(31% 47% at 51% 51%);
+}
+
+.inner1 {
+    /* border: 2px solid; */
+    width: 45px;
+    height: 29px;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    background-color: rgb(248, 245, 245);
+    clip-path: ellipse(19% 43% at 48% 57%);
+    transition: 1s;
+}
+.face:hover .inner1{
+    /* position: absolute; */
+    left: 13%;
+    top: 38%;
+    
+}
+.eye2 {
+    /* border: 2px solid; */
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 57%;
+    top: 15%;
+    clip-path: ellipse(31% 47% at 51% 51%);
+    background-color: black;
+}
+
+.inner2 {
+    /* border: 2px solid; */
+    width: 45px;
+    height: 29px;
+    position: absolute;
+    right: 0;
+    top: 0%;
+    background-color: rgb(255, 255, 255);
+    clip-path: ellipse(19% 43% at 48% 57%);
+    transition: 1s;
+}
+.face:hover .inner2{
+    left: 0;
+    top: 43%;
+}
+
+.nose {
+    /* border: 2px solid; */
+    width: 50px;
+    height: 30px;
+    background: rgb(3, 3, 3);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    position: absolute;
+    left: 35%;
+    top: 38%;
+}
+
+.mouth {
+    width: 33px;
+    height: 33px;
+    border: 2px solid #333;
+    border-left: 0;
+    border-top: 0;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 40%;
+    top: 59%;
+}
+
+.arrow-down {
+    /* border: 2px solid; */
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    left: 38%;
+    top: 77%;
+    clip-path: circle(50% at 50% 0);
+    background-color: red;
+
+}
+
+.ear1 {
+    border: 2px solid;
+    width: 155px;
+    height: 150px;
+    position: absolute;
+    left: 37%;
+    top: 10%;
+    clip-path: ellipse(25% 40% at 50% 50%);
+    background-color: #331202;
+    z-index: 4;
+}
+
+.inner3 {
+    /* border: 2px solid black; */
+    width: 162px;
+    height: 180px;
+    position: absolute;
+    left: 0%;
+    top: -5%;
+    clip-path: ellipse(17% 25% at 50% 50%);
+    background-color: #f2ebf9;
+
+}
+
+.ear2 {
+    /* border: 2px solid; */
+    width: 155px;
+    height: 150px;
+    position: absolute;
+    left: 52%;
+    top: 10%;
+    clip-path: ellipse(25% 40% at 50% 50%);
+    background-color: #331202;
+    z-index: 5;
+}
+
+.inner4 {
+    border: 2px solid black;
+    width: 162px;
+    height: 180px;
+    position: absolute;
+    left: -5%;
+    top: -3%;
+    clip-path: ellipse(17% 25% at 50% 50%);
+    background-color: #f2ebf9;
+
+}
+
+.body {
+    border: 2px solid;
+    width: 316px;
+    height: 302px;
+    position: absolute;
+    left: 39%;
+    top: 51%;
+    border-radius: 20%;
+    background-image: linear-gradient(#f9d70b,#f20505,#f0e046);
+    z-index: 2;
+
+}
+
+.hand {
+    /* border: 2px solid; */
+    width: 600px;
+    height: 31px;
+    position: absolute;
+    left: 29%;
+    top: 62%;
+    background-color: #0d0e0e;
+    /* border-radius: 50%; */
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    z-index: 1;
+}
+
+.finger1 {
+    /* border: 2px solid; */
+    width: 39px;
+    height: 31px;
+    position: absolute;
+    left: 0%;
+    top: -1%;
+    border-radius: 50%;
+    background-color: rgb(252, 252, 252);
+}
+   
+/* .hand:hover .finger1{
+    left: -7%;
+    top: 2%;
+} */
+.finger2 {
+    /* border: 2px solid; */
+    width: 39px;
+    height: 31px;
+    position: absolute;
+    right: 0%;
+    top: 2%;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 230);
+    transition: 1s;
+}
+/* .hand:hover .finger2{
+    left: 101%;
+    top:5%;
+} */

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.box {
+    border: 2px solid black;
+    width: 400PX;
+    height: 400PX;
+    margin: 0 auto;
+    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+    transition: 1s;
+}
+
+.box:hover {
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+
+.box1{
+    border: 2px solid black;
+    width: 400PX;
+    height: 400PX;
+    margin: 0 auto;
+    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.box1:hover {
+    transform: rotate(360deg);
+    border-radius: 0;
+}
+
